@@ -58,7 +58,7 @@ class ContactForm extends React.Component {
         })
       };
       // Hacer POST al endpoint de SendGrid
-      const result = await fetch(`http://localhost:4000/send-email`, settings);
+      const result = await fetch(`https://sendgrid-express.herokuapp.com/send-email`, settings);
 
       // verificar que el correo se haya enviado
       if (result.ok) {
