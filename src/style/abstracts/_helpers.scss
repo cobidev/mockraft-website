@@ -1,0 +1,22 @@
+// Spacing
+.section-spacing {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.section-spacing--sm {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 760px) {
+  .section-spacing {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/* Opacity */
+.opacity-7 {
+  opacity: 0.7;
+}

@@ -1,0 +1,56 @@
+.testimonial__title {
+  font-size: $sm-font-size;
+  color: $normal-grey;
+}
+
+.testimonial__column {
+  padding: 1rem 0 7rem 0;
+}
+
+.testimonial__text {
+  font-size: $sm-font-size;
+  color: $normal-grey;
+  letter-spacing: -0.5px;
+  line-height: 1.9;
+  margin-bottom: 2rem;
+
+  @include respond(phone) {
+    font-size: 1.5rem;
+    width: 70%;
+    margin: 0 auto 2rem auto;
+  }
+}
+
+.testimonial__author {
+  font-size: $md-font-size;
+  font-weight: 800;
+  letter-spacing: -0.8px;
+}
+
+#reviews-slide {
+  .carousel-indicators li {
+    background-color: $primary-color;
+  }
+
+  .carousel-control-next:focus,
+  .carousel-control-next:hover,
+  .carousel-control-prev:focus,
+  .carousel-control-prev:hover {
+    opacity: 1;
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 32px;
+    height: 32px;
+    background: white;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url('/images/arrow-r.svg');
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url('/images/arrow-l.svg');
+  }
+}

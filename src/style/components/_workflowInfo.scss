@@ -1,0 +1,25 @@
+// Wrapper
+.workflow__wrapper {
+  @include respond(phone) {
+    margin: 1.5rem 0;
+  }
+
+  // SVG Icons
+  .workflow__icon-svg {
+    width: 5rem;
+  }
+
+  // Title
+  .workflow__heading-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+
+  // Text
+  .workflow__text {
+    line-height: 1.9;
+    margin: 0 0 1.2em;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+}

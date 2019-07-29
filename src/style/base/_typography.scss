@@ -1,0 +1,27 @@
+// Headings
+h2.section-title {
+  font-size: $lg-font-size;
+  font-weight: 600 !important;
+
+  @include respond(phone) {
+    font-size: 2rem;
+  }
+}
+
+/* Font-Sizes */
+.font-default {
+  font-size: $default-font-size !important;
+}
+.font-small {
+  font-size: $sm-font-size !important;
+}
+.font-medium {
+  font-size: $md-font-size !important;
+}
+.font-big {
+  font-size: $lg-font-size !important;
+
+  @include respond(phone) {
+    font-size: 2rem !important;
+  }
+}

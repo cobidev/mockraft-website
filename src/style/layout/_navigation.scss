@@ -1,0 +1,27 @@
+.navbar {
+  font-size: 1.4rem;
+  border-bottom: 1px solid $bg-grey;
+
+  .navbar-brand {
+    padding: 1rem;
+  }
+
+  .nav-link {
+    a {
+      color: $normal-grey;
+      transition: all 0.3s;
+      padding: 0rem 1rem;
+
+      &:hover {
+        color: $primary-color;
+        text-decoration: none;
+      }
+    }
+
+    .btn-theme {
+      @include respond(tab-port) {
+        display: none;
+      }
+    }
+  }
+}

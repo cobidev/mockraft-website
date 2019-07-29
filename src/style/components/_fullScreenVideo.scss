@@ -1,0 +1,76 @@
+.fullscreen-video {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: -6.8rem;
+
+  /* Video */
+  .fullscreen-video__wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    video {
+      min-height: 100%;
+      min-width: 100%;
+    }
+  }
+
+  /* Overlay */
+  .fullscreen-video__header-overlay {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    opacity: 0.9;
+  }
+
+  /* Heading */
+  .fullscreen-video__header-content {
+    padding-top: 4rem;
+    z-index: 10;
+
+    @include respond(phone) {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    @include respond(phone-xs) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 4.5rem;
+      color: #fff;
+      animation-delay: 1s;
+
+      @include respond(phone) {
+        font-size: 3rem;
+      }
+      @include respond(phone-xs) {
+        font-size: 2.5rem;
+      }
+    }
+
+    p {
+      color: #fff;
+      animation-delay: 1.5s;
+      font-size: $md-font-size;
+
+      @include respond(phone) {
+        font-size: $default-font-size;
+      }
+      @include respond(phone-xs) {
+        font-size: $sm-font-size;
+      }
+    }
+  }
+}

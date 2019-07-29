@@ -1,0 +1,26 @@
+.contact-image {
+  max-width: 500px;
+
+  @include respond(tab-land) {
+    max-width: 300px;
+  }
+  @include respond(phone) {
+    display: none;
+  }
+}
+
+.contact-card {
+  width: 90%;
+  margin: 0 auto;
+
+  @include respond(tab-land) {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    background-color: #f6f9fb;
+    border: none;
+    color: #7c8a92;
+  }
+}

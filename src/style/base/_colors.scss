@@ -1,0 +1,34 @@
+/* Colors Backgrounds*/
+.bg-white {
+  background-color: white !important;
+}
+.bg-grey-light {
+  background-color: $bg-grey-light !important;
+}
+.bg-grey {
+  background-color: $bg-grey !important;
+}
+.bg-main-color {
+  background-color: $primary-color;
+}
+.bg-sec-color {
+  background-color: $secondary-color;
+}
+.bg-theme-gradient {
+  background-image: linear-gradient(
+    135deg,
+    $primary-color 0%,
+    $secondary-color 100%
+  );
+}
+
+/* Color Texts */
+.text-main {
+  color: $dark-blue !important;
+}
+.text-grey {
+  color: $normal-grey !important;
+}
+.text-grey-light {
+  color: $light-grey !important;
+}

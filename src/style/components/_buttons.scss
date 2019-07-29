@@ -1,0 +1,30 @@
+/* Buttons */
+.btn-theme {
+  padding: 1rem 3rem !important;
+  border-radius: 3rem;
+  transition: all 0.3s;
+}
+
+.btn-theme--main {
+  border: 2px solid #02aab0 !important;
+  background-color: #02aab0 !important;
+  color: white !important;
+}
+
+.btn-theme--main:hover {
+  border: 2px solid #018f94 !important;
+  background-color: #018f94 !important;
+  text-decoration: none;
+}
+
+.btn-theme--sec {
+  border: 2px solid #02aab0;
+  background-color: transparent;
+  color: #02aab0 !important;
+}
+
+.btn-theme--sec:hover {
+  border: 2px solid #02aab0;
+  background-color: #02aab0;
+  color: white !important;
+}

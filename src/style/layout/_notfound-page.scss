@@ -1,0 +1,15 @@
+.notfound-title {
+  font-size: 5.5rem;
+
+  @include respond(phone) {
+    margin-top: 3rem;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+}
+
+.notfound-button {
+  @include respond(phone) {
+    margin: 0 auto;
+  }
+}

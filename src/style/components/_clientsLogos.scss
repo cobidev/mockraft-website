@@ -1,0 +1,15 @@
+.client-logos__image-wrapper {
+  text-align: center;
+
+  @include respond(tab-port) {
+    padding: 2rem;
+  }
+  @include respond(phone) {
+    padding: 1rem;
+  }
+}
+
+.client-logos__text {
+  font-size: $md-font-size;
+  color: $normal-grey;
+}
