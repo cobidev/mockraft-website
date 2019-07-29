@@ -13,8 +13,8 @@ const ClientsLogos = () => {
                 Nuestras herramientas
               </h2>
               <p className="client-logos__text">
-                Mockraft Agency utiliza algunas de las mejores herramientas que
-                existen para garantizar el éxito del proyecto.
+                Mockraft utiliza algunas de las mejores herramientas que existen
+                para garantizar el éxito del proyecto.
               </p>
             </Fade>
           </Col>

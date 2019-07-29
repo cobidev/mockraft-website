@@ -13,7 +13,8 @@ const FullScreenVideo = () => (
       </Fade>
       <Fade top duration={800} delay={1200}>
         <p>
-          Mockraft es agencia digital enfocada en la resolucion de problemas
+          Mockraft es una agencia digital enfocada en hacer realidad ideas
+          innovadoras.
         </p>
       </Fade>
     </div>

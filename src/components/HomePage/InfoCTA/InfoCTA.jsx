@@ -16,7 +16,7 @@ const InfoCTA = () => (
       </h2>
       <p className="text-white font-medium">
         Programe una consulta con nosotros para empezar a definir la mejor
-        solucion y a llevar a cabo esa idea que tienes en mente.
+        solución y llevar a cabo esa idea que tiene en mente.
       </p>
     </Fade>
   </>
