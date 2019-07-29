@@ -26,6 +26,46 @@ const ClientsLogos = () => {
                 <img
                   width="200"
                   className="img-fluid"
+                  alt="React"
+                  src="/images/tools/react.svg"
+                />
+              </div>
+            </Col>
+            <Col lg="3" className="col-6">
+              <div className="client-logos__image-wrapper">
+                <img
+                  width="200"
+                  className="img-fluid"
+                  alt="Node.js"
+                  src="/images/tools/Node.svg"
+                />
+              </div>
+            </Col>
+            <Col lg="3" className="col-6">
+              <div className="client-logos__image-wrapper">
+                <img
+                  width="200"
+                  className="img-fluid"
+                  alt="MongoDB"
+                  src="/images/tools/mongodb.svg"
+                />
+              </div>
+            </Col>
+            <Col lg="3" className="col-6">
+              <div className="client-logos__image-wrapper">
+                <img
+                  width="200"
+                  className="img-fluid"
+                  alt="Trello"
+                  src="/images/tools/trello.svg"
+                />
+              </div>
+            </Col>
+            <Col lg="3" className="col-6">
+              <div className="client-logos__image-wrapper">
+                <img
+                  width="200"
+                  className="img-fluid"
                   alt="Heroku"
                   src="/images/tools/heroku.svg"
                 />
@@ -58,46 +98,6 @@ const ClientsLogos = () => {
                   className="img-fluid"
                   alt="WooCommerce"
                   src="/images/tools/woocommerce.svg"
-                />
-              </div>
-            </Col>
-            <Col lg="2" className="col-6">
-              <div className="client-logos__image-wrapper">
-                <img
-                  width="100"
-                  className="img-fluid"
-                  alt="React"
-                  src="/images/tools/react.svg"
-                />
-              </div>
-            </Col>
-            <Col lg="3" className="col-6">
-              <div className="client-logos__image-wrapper">
-                <img
-                  width="200"
-                  className="Node.js"
-                  alt="client-logo-3"
-                  src="/images/tools/Node.svg"
-                />
-              </div>
-            </Col>
-            <Col lg="3" className="col-6">
-              <div className="client-logos__image-wrapper">
-                <img
-                  width="200"
-                  className="img-fluid"
-                  alt="MongoDB"
-                  src="/images/tools/mongodb.svg"
-                />
-              </div>
-            </Col>
-            <Col lg="3" className="col-6">
-              <div className="client-logos__image-wrapper">
-                <img
-                  width="200"
-                  className="img-fluid"
-                  alt="Trello"
-                  src="/images/tools/trello.svg"
                 />
               </div>
             </Col>
