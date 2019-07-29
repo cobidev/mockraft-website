@@ -21,10 +21,10 @@ const ImageWithText = ({ toRight, backgroundColor, img }) => {
                     </div>
                     <div className="text-white">
                       <p className="font-small">
-                        Sea cual sea su servicio o producto, lo cubrimos con
-                        nuestro equipo profesional de desarrolladores, gerentes
-                        y comercializadores. Lo tenemos cubierto desde el primer
-                        día y aseguramos el éxito de su producto.
+                        Nos comprometemos con dedicación en cada proyecto,
+                        garantizando óptimos resultados en la mejor relación
+                        precio / valor. Siendo la innovación y la investigación
+                        constante nuestros mejores estandartes.
                       </p>
                     </div>
                   </div>
@@ -62,16 +62,18 @@ const ImageWithText = ({ toRight, backgroundColor, img }) => {
                   <div className="p-5">
                     <div>
                       <h2 className="section-title text-white mb-4">
-                        Desarrollo elástico
+                        Growth Hacking
                       </h2>
                     </div>
                     <div className="text-white">
                       <p className="font-small">
-                        Usted podría preguntarse, ¿qué es el desarrollo
-                        elástico? Mockraft está configurado con la perspectiva
-                        de crecimiento en mente. Ya sea que necesite comenzar
-                        con uno o diez desarrolladores, tenemos los recursos
-                        para obtener la fuerza laboral que necesita.
+                        Basamos el desarrollo de nuestros productos y servicios
+                        en la investigación y análisis de datos, buscamos nuevas
+                        formulas, con un mínimo gasto, para hacer crecer su
+                        producto digital y conseguir que la gente lo use, les
+                        aporte valor, y especialmente se sienta identificado.
+                        Nuestra metodología es la conjunción perfecta entre
+                        ciencia, creatividad y mejoramiento continuo.
                       </p>
                     </div>
                   </div>

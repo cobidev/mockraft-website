@@ -7,7 +7,7 @@ const ServicesInfo = () => (
     <Container>
       <Fade bottom duration={500} delay={500} distance={'30px'}>
         <h2 className="section-title mb-3 text-center text-main">
-          Que Ofrecemos
+          Qué Ofrecemos
         </h2>
       </Fade>
       <Fade bottom duration={500} delay={800} distance={'15px'}>
@@ -28,11 +28,11 @@ const ServicesInfo = () => (
                 Desarrollo Web
               </h3>
               <p className="mb-3 service__text text-main">
-                Sitios Web Corportativos
+                Sitios Web Corporativos
                 <br />
-                Paginas Personales
+                Páginas Personales
                 <br />
-                WordPress Blog
+                Blog WordPress
               </p>
             </div>
           </Fade>

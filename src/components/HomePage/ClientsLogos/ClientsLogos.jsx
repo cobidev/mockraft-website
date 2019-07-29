@@ -13,8 +13,8 @@ const ClientsLogos = () => {
                 Nuestras herramientas
               </h2>
               <p className="client-logos__text">
-                Mockraft valora y utiliza algunas de las mejores herramientas
-                que existen para garantizar el éxito del proyecto.
+                Mockraft Agency utiliza algunas de las mejores herramientas que
+                existen para garantizar el éxito del proyecto.
               </p>
             </Fade>
           </Col>
@@ -26,7 +26,7 @@ const ClientsLogos = () => {
                 <img
                   width="200"
                   className="img-fluid"
-                  alt="client-logo-1"
+                  alt="Heroku"
                   src="/images/tools/heroku.svg"
                 />
               </div>
@@ -36,17 +36,7 @@ const ClientsLogos = () => {
                 <img
                   width="200"
                   className="img-fluid"
-                  alt="client-logo-2"
-                  src="/images/tools/Node.svg"
-                />
-              </div>
-            </Col>
-            <Col lg="3" className="col-6">
-              <div className="client-logos__image-wrapper">
-                <img
-                  width="200"
-                  className="img-fluid"
-                  alt="client-logo-3"
+                  alt="Shopify"
                   src="/images/tools/Shopify.svg"
                 />
               </div>
@@ -56,8 +46,58 @@ const ClientsLogos = () => {
                 <img
                   width="200"
                   className="img-fluid"
-                  alt="client-logo-4"
+                  alt="WordPress"
+                  src="/images/tools/wordpress.svg"
+                />
+              </div>
+            </Col>
+            <Col lg="3" className="col-6">
+              <div className="client-logos__image-wrapper">
+                <img
+                  width="200"
+                  className="img-fluid"
+                  alt="WooCommerce"
                   src="/images/tools/woocommerce.svg"
+                />
+              </div>
+            </Col>
+            <Col lg="2" className="col-6">
+              <div className="client-logos__image-wrapper">
+                <img
+                  width="100"
+                  className="img-fluid"
+                  alt="React"
+                  src="/images/tools/react.svg"
+                />
+              </div>
+            </Col>
+            <Col lg="3" className="col-6">
+              <div className="client-logos__image-wrapper">
+                <img
+                  width="200"
+                  className="Node.js"
+                  alt="client-logo-3"
+                  src="/images/tools/Node.svg"
+                />
+              </div>
+            </Col>
+            <Col lg="3" className="col-6">
+              <div className="client-logos__image-wrapper">
+                <img
+                  width="200"
+                  className="img-fluid"
+                  alt="MongoDB"
+                  src="/images/tools/mongodb.svg"
+                />
+              </div>
+            </Col>
+            <Col lg="3" className="col-6">
+              <div className="client-logos__image-wrapper">
+                <img
+                  width="200"
+                  className="img-fluid"
+                  alt="Trello"
+                  src="/images/tools/trello.svg"
                 />
               </div>
             </Col>

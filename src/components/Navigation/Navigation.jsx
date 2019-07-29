@@ -22,22 +22,22 @@ const Navigation = () => (
             </NavLink>
           </div>
           <div className="nav-link">
-            <NavLink to="/about">Nosotros</NavLink>
+            <NavLink to="/nosotros">Nosotros</NavLink>
           </div>
           <div className="nav-link">
-            <NavLink exact to="/portfolio">
+            <NavLink exact to="/portafolio">
               Portafolio
             </NavLink>
           </div>
           <div className="nav-link">
-            <NavLink exact to="/contact">
+            <NavLink exact to="/contacto">
               Contacto
             </NavLink>
           </div>
           <div className="nav-link">
             <NavLink
               className="btn-theme btn-theme--sec font-small"
-              to="/contact">
+              to="/contacto">
               Solicitar Cotización
             </NavLink>
           </div>

@@ -9,9 +9,7 @@ const InfoCTA = () => (
         Llámenos ahora{' '}
         <span className="font-weight-bold">+58 426-637-4535</span> o envíe un
         correo a{' '}
-        <Link
-          className="text-white font-weight-bold"
-          to="/contact">
+        <Link className="text-white font-weight-bold" to="/contacto">
           {' '}
           <u>info@mockraft.com</u>
         </Link>

@@ -22,7 +22,7 @@ const Footer = () => (
             <ListGroup variant="flush">
               <ListGroup.Item>
                 <img src="/images/arrow-r-footer.svg" alt="link-arrow" />
-                <Link className="text-grey" to="/contact">
+                <Link className="text-grey" to="/contacto">
                   info@mockrat.com
                 </Link>
               </ListGroup.Item>

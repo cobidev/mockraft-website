@@ -21,9 +21,13 @@ const AppRouter = () => (
           <CSSTransition key={location.key} timeout={450} classNames="fade">
             <Switch location={location}>
               <Route exact={true} path="/" component={HomePage} />
-              <Route exact={true} path="/portfolio" component={PortfolioPage} />
-              <Route exact={true} path="/about" component={AboutPage} />
-              <Route exact={true} path="/contact" component={ContactPage} />
+              <Route
+                exact={true}
+                path="/portafolio"
+                component={PortfolioPage}
+              />
+              <Route exact={true} path="/nosotros" component={AboutPage} />
+              <Route exact={true} path="/contacto" component={ContactPage} />
               <Route exact={true} path="/terminos" component={LegalPage} />
               <Route exact={true} path="/privacidad" component={LegalPage} />
               <Route component={NotFoundPage} />

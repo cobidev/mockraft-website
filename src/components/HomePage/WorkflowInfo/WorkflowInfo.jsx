@@ -29,9 +29,9 @@ const WorkflowInfo = () => (
                 Estrategia
               </h3>
               <p className="mb-3 workflow__text text-grey">
-                Medimos el alcance del proyecto y los requisitos técnicos, para
-                que podamos cumplir con sus objetivos y brindarle la calidad que
-                espera.
+                Definimos los objetivos y requerimientos técnicos del proyecto,
+                a fin de estimar el alcance y tiempo de entrega para cumplir con
+                la calidad que el cliente espera.
               </p>
             </div>
           </Col>
@@ -49,9 +49,9 @@ const WorkflowInfo = () => (
                 Desarrollo
               </h3>
               <p className="mb-3 workflow__text text-grey">
-                Aqui comenzamos el proceso de desarrollo, en un entorno SCRUM
-                con actualizaciones frecuentes sobre el progreso desde nuestro
-                lado.
+                Una vez definido los requerimientos y tiempo de entrega,
+                trabajamos bajo la metodología SCRUM, la cual nos permite ir
+                evaluando en tiempo real el progreso del proyecto.
               </p>
             </div>
           </Col>
@@ -66,12 +66,12 @@ const WorkflowInfo = () => (
                 />
               </div>
               <h3 className="mb-3 workflow__heading-title text-main">
-                Ejecucion
+                Ejecución
               </h3>
               <p className="mb-3 workflow__text text-grey">
-                Nos encargamos del lanzamiento y preparamos el entorno. Mockraft
-                proporciona solo el código de mayor calidad y el desarrollo de
-                productos.
+                Acompañamos al cliente en la preparación del entorno y nos
+                encargamos del lanzamiento. Mockraft proporciona el código de
+                mayor calidad y desarrollo de productos.
               </p>
             </div>
           </Col>

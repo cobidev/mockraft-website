@@ -30,45 +30,7 @@ const ReviewsSlide = () => {
                   </p>
                   <h3 className="text-main testimonial__author">- Ilse G.</h3>
                   <div className="text-center">
-                    <h2 className="testimonial__title">Mura Consultory</h2>
-                  </div>
-                </Col>
-              </Row>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <Row className="justify-content-center">
-                <Col md="7" className="text-center testimonial__column">
-                  <p className="testimonial__text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Nulla pariatur dolorum sapiente! Molestias ducimus placeat
-                    dolorem animi soluta excepturi numquam, necessitatibus
-                    deleniti ipsam expedita dolorum quo est enim eveniet quas.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Nulla pariatur dolorum sapiente!
-                  </p>
-                  <h3 className="testimonial__author">- Ilse G.</h3>
-                  <div className="text-center">
-                    <h2 className="testimonial__title">Mura Consultory</h2>
-                  </div>
-                </Col>
-              </Row>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <Row className="justify-content-center">
-                <Col md="7" className="text-center testimonial__column">
-                  <p className="testimonial__text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Nulla pariatur dolorum sapiente! Molestias ducimus placeat
-                    dolorem animi soluta excepturi numquam, necessitatibus
-                    deleniti ipsam expedita dolorum quo est enim eveniet quas.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Nulla pariatur dolorum sapiente!
-                  </p>
-                  <h3 className="testimonial__author">- Ilse G.</h3>
-                  <div className="text-center">
-                    <h2 className="testimonial__title">Mura Consultory</h2>
+                    <h2 className="testimonial__title">Murá</h2>
                   </div>
                 </Col>
               </Row>
