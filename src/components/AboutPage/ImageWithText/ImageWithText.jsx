@@ -16,7 +16,7 @@ const ImageWithText = ({ toRight, backgroundColor, img }) => {
                   <div className="p-5">
                     <div>
                       <h2 className="section-title text-white mb-4">
-                        ¿Porque nosotros?
+                        ¿Por qué nosotros?
                       </h2>
                     </div>
                     <div className="text-white">
