@@ -3,6 +3,27 @@ import Carousel from 'react-bootstrap/Carousel';
 import { Container, Row, Col } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
+const reviews = [
+  {
+    texto:
+      'El equipo de Mockraft siempre están atentos a cada detalle que el cliente necesita, disponibles todo el tiempo para despejar cualquier duda y ademas otorgan el valor extra de asumir los proyectos como propios. Los recomiendo ampliamente.',
+    author: 'Daniella V.',
+    empresa: 'SiChef.org'
+  },
+  {
+    texto:
+      'En nuestra experiencia, recomendamos contratar los servicios de Mockraft, ya que son asertivos y se preocupan activan y honestamente por lograr la satisfacción del cliente. Amabilidad, creatividad y eficiencia serian las palabras para describirlos.',
+    author: 'Karla E.',
+    empresa: 'Escobar Consultores Asociados.'
+  },
+  {
+    texto:
+      'Son una agencia maravillosa, aportan ideas a tu proyecto, te asesoran en el modelo de negocio, incluso si no estas familiarizado con el mundo de la web y lo hacen con una pasión contagiosa por lo que hacen. Una grata experiencia poder contar con sus servicios.',
+    author: 'Nasr Malik',
+    empresa: 'Global Nsr Inc.'
+  }
+];
+
 const ReviewsSlide = () => {
   return (
     <section id="reviews-slide" className="section-spacing bg-white">
@@ -17,24 +38,23 @@ const ReviewsSlide = () => {
         </Fade>
         <Fade bottom duration={500} delay={1000} distance={'15px'}>
           <Carousel className="d-flex">
-            <Carousel.Item>
-              <Row className="justify-content-center">
-                <Col md="7" className="text-center testimonial__column">
-                  <p className="testimonial__text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Nulla pariatur dolorum sapiente! Molestias ducimus placeat
-                    dolorem animi soluta excepturi numquam, necessitatibus
-                    deleniti ipsam expedita dolorum quo est enim eveniet quas.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Nulla pariatur dolorum sapiente!
-                  </p>
-                  <h3 className="text-main testimonial__author">- Ilse G.</h3>
-                  <div className="text-center">
-                    <h2 className="testimonial__title">Murá</h2>
-                  </div>
-                </Col>
-              </Row>
-            </Carousel.Item>
+            {reviews.map(review => {
+              return (
+                <Carousel.Item>
+                  <Row className="justify-content-center">
+                    <Col md="7" className="text-center testimonial__column">
+                      <p className="testimonial__text">{review.texto}</p>
+                      <h3 className="text-main testimonial__author">
+                        {`- ${review.author}`}
+                      </h3>
+                      <div className="text-center">
+                        <h2 className="testimonial__title">{review.empresa}</h2>
+                      </div>
+                    </Col>
+                  </Row>
+                </Carousel.Item>
+              );
+            })}
           </Carousel>
         </Fade>
       </Container>
