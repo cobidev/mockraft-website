@@ -12,13 +12,13 @@ const reviews = [
   },
   {
     texto:
-      'En nuestra experiencia, recomendamos contratar los servicios de Mockraft, ya que son asertivos y se preocupan activan y honestamente por lograr la satisfacción del cliente. Amabilidad, creatividad y eficiencia serian las palabras para describirlos.',
+      'En nuestra experiencia, recomendamos contratar los servicios de Mockraft, ya que son asertivos y se preocupan  honestamente por lograr la satisfacción del cliente. Amabilidad, creatividad y eficiencia serian las palabras para describirlos.',
     author: 'Karla E.',
     empresa: 'Escobar Consultores Asociados.'
   },
   {
     texto:
-      'Son una agencia maravillosa, aportan ideas a tu proyecto, te asesoran en el modelo de negocio, incluso si no estas familiarizado con el mundo de la web y lo hacen con una pasión contagiosa por lo que hacen. Una grata experiencia poder contar con sus servicios.',
+      'Son una agencia maravillosa, aportan ideas a tu proyecto, te asesoran en el modelo de negocio, incluso si no estas familiarizado con el mundo de la web y lo hacen con una pasión contagiosa. Una grata experiencia poder contar con sus servicios.',
     author: 'Nasr Malik',
     empresa: 'Global Nsr Inc.'
   }
