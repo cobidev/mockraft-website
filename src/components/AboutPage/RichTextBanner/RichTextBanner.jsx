@@ -10,7 +10,7 @@ const RichTextBanner = () => (
           <article className="mb-5">
             <div>
               <Fade bottom duration={500} delay={500} distance={'30px'}>
-                <h2 className="section-title text-main">Que es Mockfrat?</h2>
+                <h2 className="section-title text-main">¿Qué es Mockfrat?</h2>
               </Fade>
               <Fade bottom duration={500} delay={800} distance={'15px'}>
                 <span className="span-divider mt-4 mb-5" />
