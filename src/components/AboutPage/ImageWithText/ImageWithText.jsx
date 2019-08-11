@@ -69,7 +69,7 @@ const ImageWithText = ({ toRight, backgroundColor, img }) => {
                       <p className="font-small">
                         Basamos el desarrollo de nuestros productos y servicios
                         en la investigación y análisis de datos, buscamos nuevas
-                        formulas, con un mínimo gasto, para hacer crecer su
+                        fórmulas, con un mínimo gasto, para hacer crecer su
                         producto digital y conseguir que la gente lo use, les
                         aporte valor, y especialmente se sienta identificado.
                         Nuestra metodología es la conjunción perfecta entre
