@@ -4,6 +4,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import Navigation from '../components/Navigation/Navigation.jsx';
 import HomePage from '../components/HomePage/HomePage.jsx';
 import PortfolioPage from '../components/PortfolioPage/PortfolioPage.jsx';
+import ProjectDetail from '../components/PortfolioPage/ProjectDetail.jsx';
 import AboutPage from '../components/AboutPage/AboutPage.jsx';
 import ContactPage from '../components/ContactPage/ContactPage.jsx';
 import LegalPage from '../components/LegalPage/LegalPage.jsx';
@@ -25,6 +26,11 @@ const AppRouter = () => (
                 exact={true}
                 path="/portafolio"
                 component={PortfolioPage}
+              />
+              <Route
+                exact={true}
+                path="/portafolio/detail"
+                component={ProjectDetail}
               />
               <Route exact={true} path="/nosotros" component={AboutPage} />
               <Route exact={true} path="/contacto" component={ContactPage} />

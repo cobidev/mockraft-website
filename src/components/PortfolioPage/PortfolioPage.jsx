@@ -1,40 +1,36 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import { Container, Row, Col } from 'react-bootstrap';
-import Footer from '../Footer/Footer';
+import { Container, Row } from 'react-bootstrap';
+import BannerWrapper from '../BannerWrapper/BannerWrapper.jsx';
+import Project from './Project.jsx';
+import { ProjectConsumer } from '../../context';
+
+const title = (
+  <Fade top duration={500} delay={500} distance={'30px'}>
+    <h1 className="display-4 font-weight-bold text-center text-white">
+      Portafolio
+    </h1>
+  </Fade>
+);
 
 const PortfolioPage = () => {
-  let isPhone = window.innerWidth <= 996 ? '0px' : '30px';
-
   return (
     <main className="page">
+      <BannerWrapper backgroundColor="bg-theme-gradient">{title}</BannerWrapper>
       <section className="section-spacing bg-grey-light">
-        <Container>
+        <Container fluid>
           <Row>
-            <Col sm="12">
-              <div className="d-flex flex-column justify-content-center align-items-center">
-                <Fade left duration={500} delay={500} distance={'30px'}>
-                  <img
-                    width="500px"
-                    className="img-fluid mb-5 pb-5"
-                    src="/images/construction.svg"
-                    alt="Under Construction"
-                  />
-                </Fade>
-                <Fade right duration={500} delay={800} distance={isPhone}>
-                  <h2 className="text-main text-center font-big font-weight-bold">
-                    <span className="d-block mb-4">
-                      Estamos trabajando en algo asombroso.
-                    </span>
-                    ¡Pronto lo confirmarás!
-                  </h2>
-                </Fade>
-              </div>
-            </Col>
+            <ProjectConsumer>
+              {value => {
+                console.log(value);
+                return value.projects.map(project => {
+                  return <Project key={project.id} project={project} />;
+                });
+              }}
+            </ProjectConsumer>
           </Row>
         </Container>
       </section>
-      <Footer />
     </main>
   );
 };
