@@ -2,8 +2,8 @@ export const clientProjects = [
   {
     id: 1,
     title: 'Mockraft Sketchbooks',
-    subtitle: 'Empresa familiar realizadora de productos artesanales',
-    img: 'images/projects/1-hr.png',
+    subtitle: 'Tienda Shopify eCommerce',
+    img: 'images/projects/1-hr.JPG',
     mockupImg: '',
     background:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque minima odit dolorum ab et odio, error aperiam sequi consequuntur ducimus accusantium quod voluptatem corporis ullam facilis, sint dolore eius repudiandae',
@@ -15,8 +15,7 @@ export const clientProjects = [
   {
     id: 2,
     title: 'Perfil de Escucha',
-    subtitle:
-      'A MVC Web Application that allows you to identify your predominant profile in listening and behavior areas to suggest solutions in your communicational field.',
+    subtitle: 'Aplicacion Web Full Stack',
     img: 'images/projects/2-hr.jpg',
     mockupImg: '',
     background:
@@ -28,9 +27,9 @@ export const clientProjects = [
   },
   {
     id: 3,
-    title: 'Jacobo Martinezs Website',
-    subtitle: 'Portafolio personal para desarrollador web',
-    img: 'images/projects/3-hr.png',
+    title: 'Jacobo Martínez',
+    subtitle: 'Sitio Web Personal',
+    img: 'images/projects/3-hr.jpg',
     mockupImg: '',
     background:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque minima odit dolorum ab et odio, error aperiam sequi consequuntur ducimus accusantium quod voluptatem corporis ullam facilis, sint dolore eius repudiandae',
