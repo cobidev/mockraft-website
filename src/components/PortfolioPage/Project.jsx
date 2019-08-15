@@ -83,7 +83,7 @@ const Project = ({ project }) => {
                           {project.title}
                         </span>
                         <span className="overlay__text--subtitle">
-                          {project.subtitle}
+                          {project.type}
                         </span>
                       </div>
                     </div>
