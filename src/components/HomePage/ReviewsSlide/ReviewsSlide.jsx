@@ -5,18 +5,21 @@ import Fade from 'react-reveal/Fade';
 
 const reviews = [
   {
+    id: 1,
     texto:
       'El equipo de Mockraft siempre están atentos a cada detalle que el cliente necesita, disponibles todo el tiempo para despejar cualquier duda y ademas otorgan el valor extra de asumir los proyectos como propios. Los recomiendo ampliamente.',
     author: 'Daniella V.',
     empresa: 'SiChef.org'
   },
   {
+    id: 2,
     texto:
       'En nuestra experiencia, recomendamos contratar los servicios de Mockraft, ya que son asertivos y se preocupan  honestamente por lograr la satisfacción del cliente. Amabilidad, creatividad y eficiencia serian las palabras para describirlos.',
     author: 'Karla E.',
     empresa: 'Escobar Consultores Asociados.'
   },
   {
+    id: 3,
     texto:
       'Son una agencia maravillosa, aportan ideas a tu proyecto, te asesoran en el modelo de negocio, incluso si no estas familiarizado con el mundo de la web y lo hacen con una pasión contagiosa. Una grata experiencia poder contar con sus servicios.',
     author: 'Nasr Malik',
@@ -40,7 +43,7 @@ const ReviewsSlide = () => {
           <Carousel className="d-flex">
             {reviews.map(review => {
               return (
-                <Carousel.Item>
+                <Carousel.Item key={review.id}>
                   <Row className="justify-content-center">
                     <Col md="7" className="text-center testimonial__column">
                       <p className="testimonial__text">{review.texto}</p>

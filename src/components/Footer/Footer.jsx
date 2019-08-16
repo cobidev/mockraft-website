@@ -37,7 +37,7 @@ const Footer = () => (
         </Col>
         <Col md="3" className="col-12">
           <div className="content-wrapper">
-            <h3 className="text-main">Agencia</h3>
+            <h3 className="text-main">Links</h3>
             <ListGroup variant="flush">
               <ListGroup.Item>
                 <img src="/images/arrow-r-footer.svg" alt="link-arrow" />

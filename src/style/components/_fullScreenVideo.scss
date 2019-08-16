@@ -63,7 +63,7 @@
     p {
       color: #fff;
       animation-delay: 1.5s;
-      font-size: $md-font-size;
+      font-size: 2rem;
 
       @include respond(phone) {
         font-size: $default-font-size;

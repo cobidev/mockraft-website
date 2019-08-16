@@ -26,14 +26,14 @@ class ProjectProvider extends Component {
     this.setState(() => ({ projects }));
   };
 
-  handleDetail = id => {
-    const project = this.getProject(id);
-    this.setState(() => ({ detailProject: project }));
-  };
-
   getProject = id => {
     const project = this.state.projects.find(project => project.id === id);
     return project;
+  };
+
+  handleDetail = id => {
+    const project = this.getProject(id);
+    this.setState(() => ({ detailProject: project }));
   };
 
   handleCloseDetail = () => this.setState(() => ({ detailProject: {} }));

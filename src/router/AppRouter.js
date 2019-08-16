@@ -27,11 +27,7 @@ const AppRouter = () => (
                 path="/portafolio"
                 component={PortfolioPage}
               />
-              <Route
-                exact={true}
-                path="/portafolio/detail"
-                component={ProjectDetail}
-              />
+              <Route exact={true} path="/project" component={ProjectDetail} />
               <Route exact={true} path="/nosotros" component={AboutPage} />
               <Route exact={true} path="/contacto" component={ContactPage} />
               <Route exact={true} path="/terminos" component={LegalPage} />

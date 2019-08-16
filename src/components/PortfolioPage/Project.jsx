@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
+import PropTypes from 'prop-types';
 import { ProjectConsumer } from '../../context';
 import styled from 'styled-components';
 
@@ -60,42 +61,49 @@ const ProjectWrapper = styled.article`
   }
 `;
 
-const Project = ({ project }) => {
-  return (
-    <ProjectWrapper className="col-12 col-md-6 col-lg-6 my-3">
-      <Fade bottom duration={500} delay={1000} distance={'20px'}>
-        <div className="card">
-          <ProjectConsumer>
-            {value => {
-              return (
-                <div
-                  className="img-container"
-                  onClick={() => value.handleDetail(project.id)}>
-                  <Link to="/portafolio/detail">
-                    <img
-                      src={project.img}
-                      alt={project.title}
-                      className="img-fluid"
-                    />
-                    <div className="overlay">
-                      <div className="overlay__text">
-                        <span className="overlay__text--title">
-                          {project.title}
-                        </span>
-                        <span className="overlay__text--subtitle">
-                          {project.type}
-                        </span>
-                      </div>
+const Project = ({ project }) => (
+  <ProjectWrapper className="col-12 col-md-6 col-lg-6 my-3">
+    <Fade bottom duration={500} delay={1000} distance={'20px'}>
+      <div className="card">
+        <ProjectConsumer>
+          {value => {
+            return (
+              <div
+                className="img-container"
+                onClick={() => value.handleDetail(project.id)}>
+                <Link to="/project">
+                  <img
+                    src={project.heroImg}
+                    alt={project.title}
+                    className="img-fluid"
+                  />
+                  <div className="overlay">
+                    <div className="overlay__text">
+                      <span className="overlay__text--title">
+                        {project.title}
+                      </span>
+                      <span className="overlay__text--subtitle">
+                        {project.type}
+                      </span>
                     </div>
-                  </Link>
-                </div>
-              );
-            }}
-          </ProjectConsumer>
-        </div>
-      </Fade>
-    </ProjectWrapper>
-  );
+                  </div>
+                </Link>
+              </div>
+            );
+          }}
+        </ProjectConsumer>
+      </div>
+    </Fade>
+  </ProjectWrapper>
+);
+
+Project.propTypes = {
+  project: PropTypes.shape({
+    id: PropTypes.number,
+    heroImg: PropTypes.string,
+    title: PropTypes.string,
+    tyoe: PropTypes.string
+  }).isRequired
 };
 
 export default Project;
