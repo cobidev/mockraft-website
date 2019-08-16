@@ -30,9 +30,9 @@ const ServicesInfo = () => (
               <p className="mb-3 service__text text-main">
                 Sitios Web Corporativos
                 <br />
-                Páginas Personales
+                Sitios Web Personales
                 <br />
-                Blog WordPress
+                Sitios WordPress
               </p>
             </div>
           </Fade>
@@ -53,9 +53,9 @@ const ServicesInfo = () => (
               <p className="mb-3 service__text text-main">
                 Tiendas Online
                 <br />
-                WooCommerce
+                Tienda WooCommerce
                 <br />
-                Shopify Store
+                Tienda Shopify
                 <br />
               </p>
             </div>
@@ -77,7 +77,7 @@ const ServicesInfo = () => (
               <p className="mb-3 service__text text-main">
                 Aplicaciones Web
                 <br />
-                Consultoria
+                Consultoría
                 <br />
                 APIS
               </p>
