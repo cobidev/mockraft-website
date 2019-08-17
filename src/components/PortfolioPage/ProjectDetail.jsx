@@ -13,21 +13,21 @@ const ProjectDetail = () => (
     {value => {
       const {
         title,
-        subtitle,
+        type,
         url,
         about,
         solution,
         mockImg
       } = value.detailProject;
 
-      if (!title || !subtitle || !url || !about || !solution || !mockImg) {
+      if (!title || !type || !url || !about || !solution || !mockImg) {
         return <Redirect to="/portafolio" />;
       }
 
       return (
         <main className="page">
           <section className="bg-grey-light">
-            <RichText title={title} subtitle={subtitle}>
+            <RichText title={title} subtitle={type}>
               <>
                 <div className="pb-4">
                   <h2 className="font-medium font-weight-bold text-main">
