@@ -1,7 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
-import Footer from '../Footer/Footer';
+import Footer from './Footer/Footer';
 
 const WorkingPage = () => {
   let isPhone = window.innerWidth <= 996 ? '0px' : '30px';

@@ -9,6 +9,7 @@ import AboutPage from '../components/AboutPage/AboutPage.jsx';
 import ContactPage from '../components/ContactPage/ContactPage.jsx';
 import LegalPage from '../components/LegalPage/LegalPage.jsx';
 import NotFoundPage from '../components/NotFoundPage/NotFoundPage.jsx';
+import WorkingPage from '../components/WorkingPage.jsx';
 
 const AppRouter = () => (
   <BrowserRouter>
@@ -22,13 +23,14 @@ const AppRouter = () => (
           <CSSTransition key={location.key} timeout={1200} classNames="fade">
             <Switch location={location}>
               <Route exact={true} path="/" component={HomePage} />
+              <Route exact={true} path="/nosotros" component={AboutPage} />
+              <Route exact={true} path="/servicios" component={WorkingPage} />
               <Route
                 exact={true}
                 path="/portafolio"
                 component={PortfolioPage}
               />
               <Route exact={true} path="/project" component={ProjectDetail} />
-              <Route exact={true} path="/nosotros" component={AboutPage} />
               <Route exact={true} path="/contacto" component={ContactPage} />
               <Route exact={true} path="/terminos" component={LegalPage} />
               <Route exact={true} path="/privacidad" component={LegalPage} />
