@@ -29,12 +29,12 @@ const Navigation = () => (
               Portafolio
             </NavLink>
           </div>
-          <div className="nav-link">
+          <div className="nav-link d-lg-none">
             <NavLink exact to="/contacto">
-              Contacto
+              Solicitar Cotización
             </NavLink>
           </div>
-          <div className="nav-link">
+          <div className="nav-link d-none d-lg-block">
             <NavLink
               className="btn-theme btn-theme--sec font-small"
               to="/contacto">

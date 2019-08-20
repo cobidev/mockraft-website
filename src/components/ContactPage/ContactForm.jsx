@@ -17,6 +17,13 @@ class ContactForm extends React.Component {
     validated: false
   };
 
+  // enviar peticion al API Sendgrid para hacer 'wake up' al montar el componente
+  componentDidMount = async () => {
+    const call = await fetch(`https://sendgrid-mockraft.herokuapp.com/`);
+    const data = await call.json();
+    console.log(data);
+  };
+
   // actualizar informacion del estado email a traves de los inputs
   handleInput = e => {
     this.setState({
@@ -58,7 +65,10 @@ class ContactForm extends React.Component {
         })
       };
       // Hacer POST al endpoint de SendGrid
-      const result = await fetch(`https://sendgrid-mockraft.herokuapp.com/send-email`, settings);
+      const result = await fetch(
+        `https://sendgrid-mockraft.herokuapp.com/send-email`,
+        settings
+      );
 
       // verificar que el correo se haya enviado
       if (result.ok) {

@@ -28,7 +28,7 @@ export const clientProjects = [
     title: 'Jacobo Martínez',
     type: 'Sitio Web Personal',
     heroImg: 'images/projects/3-hr.jpg',
-    mockImg: 'images/projects/3-hr.jpg',
+    mockImg: 'images/projects/3-mk.png',
     url: 'https://cobimr.xyz/',
     about:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque minima odit dolorum ab et odio, error aperiam sequi consequuntur ducimus accusantium quod voluptatem corporis ullam facilis, sint dolore eius repudiandae',

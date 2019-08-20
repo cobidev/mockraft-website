@@ -19,7 +19,7 @@ const AppRouter = () => (
     <Route
       render={({ location }) => (
         <TransitionGroup>
-          <CSSTransition key={location.key} timeout={450} classNames="fade">
+          <CSSTransition key={location.key} timeout={1200} classNames="fade">
             <Switch location={location}>
               <Route exact={true} path="/" component={HomePage} />
               <Route

@@ -51,12 +51,11 @@ const ServicesInfo = () => (
                 E-commerce
               </h3>
               <p className="mb-3 service__text text-main">
-                Tiendas Online
-                <br />
                 Tienda WooCommerce
                 <br />
                 Tienda Shopify
                 <br />
+                Tienda Online
               </p>
             </div>
           </Fade>
