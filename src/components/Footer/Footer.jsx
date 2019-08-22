@@ -12,7 +12,7 @@ const Footer = () => (
             <p className="text-grey font-small">
               Somos una agencia digital de profesionales apasionados,
               comprometidos en ofrecer soluciones digitales efectivas y de
-              calidad que satisfagan las necesidades de nuestros clientes.
+              calidad que satisfagan las necesidades de nuestros clientes
             </p>
           </div>
         </Col>

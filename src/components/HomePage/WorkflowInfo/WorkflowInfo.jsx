@@ -7,7 +7,7 @@ const WorkflowInfo = () => (
     <Container>
       <Fade bottom duration={500} delay={500} distance={'30px'}>
         <h2 className="section-title mb-3 text-center text-main">
-          Como Trabajamos
+          Cómo Trabajamos
         </h2>
       </Fade>
       <Fade bottom duration={500} delay={800} distance={'15px'}>
@@ -49,7 +49,7 @@ const WorkflowInfo = () => (
                 Desarrollo
               </h3>
               <p className="mb-3 workflow__text text-grey">
-                Una vez definido los requerimientos y tiempo de entrega,
+                Una vez definidos los requerimientos y tiempo de entrega,
                 trabajamos bajo la metodología SCRUM, la cual nos permite ir
                 evaluando en tiempo real el progreso del proyecto.
               </p>

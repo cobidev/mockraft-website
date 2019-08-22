@@ -9,7 +9,7 @@ export const clientProjects = [
     about:
       'Pequeña empresa familiar de libretas artesanales hechas en Venezuela.',
     solution:
-      'Motivado a la situación país, el cliente buscaba ampliar su mercado a través de Internet, el reto principal era diseñar una pagina de comercio electrónico que lograra conectar el producto con su target a nivel internacional. El resultado fue una tienda online,  desarrollada con la plataforma E-commerce Shopify, ofreciéndole al cliente la posibilidad de ampliar su mercado, gestionar sus inventarios y recibir pagos desde distintas pasarelas de pago.'
+      'Debido a la situación actual venezolana, el cliente buscaba ampliar su mercado a través de Internet: el reto principal era diseñar una página de comercio electrónico que lograra conectar el producto con su target a nivel internacional. El resultado fue una tienda online, desarrollada con la plataforma E-commerce Shopify, ofreciéndole al cliente la posibilidad de ampliar su mercado, gestionar sus inventarios y recibir pagos desde distintas pasarelas de pago.'
   },
   {
     id: 2,
@@ -19,9 +19,9 @@ export const clientProjects = [
     mockImg: 'images/projects/2-mk.jpg',
     url: 'https://mura-listening-profile.herokuapp.com/',
     about:
-      'Empresa consultora en recursos humanos, de amplia trayectoria y referencia en América Latina especializados en el diseño de estrategias para procesos de cambio y aprendizaje en las organizaciones.',
+      'Murá es una empresa consultora en recursos humanos, de amplia trayectoria y referencia en América Latina especializados en el diseño de estrategias para procesos de cambio y aprendizaje en las organizaciones.',
     solution:
-      'El cliente deseaba una adaptación digital de uno de sus productos de medición, el reto principal era transferir el diseño de un formato impreso a uno digital, sintetizando tanto el diseño como la funcionalidad. Nuestra solución se presenta en forma de una aplicación web a través de una interfaz sencilla, responsiva y de fácil acceso desde cualquier dispositivo.'
+      'El cliente deseaba una adaptación digital de uno de sus productos de medición, el reto principal fue lograr esta transferencia, sintetizando tanto el diseño como la funcionalidad. Nuestra solución se presenta en forma de una aplicación web a través de una interfaz sencilla, responsiva y de fácil acceso desde cualquier dispositivo.'
   },
   {
     id: 3,
@@ -33,6 +33,6 @@ export const clientProjects = [
     about:
       'Jacobo es el Lead Developer y Co-Founder de esta agencia digital. En su corta carrera profesional ha contribuido en distintos proyectos importantes.',
     solution:
-      'Su portafolio digital o sitio web personal es el claro ejemplo de como trabajamos en la agencia en cuanto a código, diseño y UI/UX. Asi como la funcionalidad de ser totalmente responsivo en dispositivos como: smartphones, tables y laptop. Nos especializamos en la simplicidad y que el más mínimo detalle cuente para este tipo de proyectos.'
+      'Su portafolio digital o sitio web personal es el claro ejemplo de cómo trabajamos en la agencia en cuanto a código, diseño y UI/UX. Asi como la funcionalidad de ser totalmente responsivo en dispositivos como: smartphones, tablets y laptops. Nos especializamos en la simplicidad y que el más mínimo detalle cuente para cada proyecto.'
   }
 ];

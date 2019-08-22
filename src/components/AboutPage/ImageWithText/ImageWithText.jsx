@@ -23,7 +23,7 @@ const ImageWithText = ({ toRight, backgroundColor, img }) => {
                       <p className="font-small">
                         Nos comprometemos con dedicación en cada proyecto,
                         garantizando óptimos resultados en la mejor relación
-                        precio / valor. Siendo la innovación y la investigación
+                        precio/valor. Siendo la innovación y la investigación
                         constante nuestros mejores estandartes.
                       </p>
                     </div>

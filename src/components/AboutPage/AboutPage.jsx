@@ -25,15 +25,15 @@ const AboutPage = () => (
         </p>
         <p className="text-grey font-small">
           Nuestro equipo de trabajo se caracteriza por combinar trayectoria y
-          aprendizaje continuo ya que sumamos más de 20 años de experiencia en
-          los distintos departamentos.
+          aprendizaje continuo, sumando más de 20 años de experiencia en los
+          distintos departamentos.
         </p>
         <p className="text-grey font-small">
-          “Mock proviene de la palabra ( Mockup ), es el plano de nuestras
+          <em>Mock</em> proviene de la palabra (Mockup), es el plano de nuestras
           ideas, donde definimos nuestra estrategia digital a realizar. Mientras
-          que Craft ( Crafting ), es la acción de crear y construir esa idea,
-          cuando juntamos estos 2 términos, obtenemos una solución estructurada
-          de manera eficiente, he ahí nuestra esencia como Agencia.”
+          que <em>Craft</em> (Crafting), es la acción de crear y construir esa
+          idea, cuando juntamos estos 2 términos, obtenemos una solución
+          estructurada de manera eficiente, he ahí nuestra esencia como Agencia.
         </p>
       </>
     </RichText>

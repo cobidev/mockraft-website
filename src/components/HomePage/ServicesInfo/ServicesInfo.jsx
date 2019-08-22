@@ -71,7 +71,7 @@ const ServicesInfo = () => (
                 />
               </div>
               <h3 className="mb-3 service__heading-title text-center text-main">
-                Frontend & Backend
+                Front-end & Back-end
               </h3>
               <p className="mb-3 service__text text-main">
                 Aplicaciones Web
