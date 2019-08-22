@@ -16,7 +16,7 @@ const title = (
 const AboutPage = () => (
   <main className="page">
     <BannerWrapper backgroundColor="bg-theme-gradient">{title}</BannerWrapper>
-    <RichText title="¿Qué es Mockfrat?">
+    <RichText title="¿Qué es Mockraft?">
       <>
         <p className="text-grey font-small">
           Somos una agencia digital de profesionales apasionados, comprometidos
