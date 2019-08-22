@@ -4,7 +4,7 @@ export const clientProjects = [
     title: 'MSR Sketchbooks',
     type: 'Tienda Shopify E-commerce',
     heroImg: 'images/projects/1-hr.JPG',
-    mockImg: 'images/projects/1-mk.png',
+    mockImg: 'images/projects/1-mk.jpg',
     url: 'https://msrfins.com/',
     about:
       'Pequeña empresa familiar de libretas artesanales hechas en Venezuela.',
@@ -16,7 +16,7 @@ export const clientProjects = [
     title: 'Perfil de Escucha',
     type: 'Aplicación Web Full Stack',
     heroImg: 'images/projects/2-hr.jpg',
-    mockImg: 'images/projects/2-mk.png',
+    mockImg: 'images/projects/2-mk.jpg',
     url: 'https://mura-listening-profile.herokuapp.com/',
     about:
       'Empresa consultora en recursos humanos, de amplia trayectoria y referencia en América Latina especializados en el diseño de estrategias para procesos de cambio y aprendizaje en las organizaciones.',
@@ -28,7 +28,7 @@ export const clientProjects = [
     title: 'Jacobo Martínez',
     type: 'Sitio Web Personal',
     heroImg: 'images/projects/3-hr.jpg',
-    mockImg: 'images/projects/3-mk.png',
+    mockImg: 'images/projects/3-mk.jpg',
     url: 'https://cobimr.xyz/',
     about:
       'Jacobo es el Lead Developer y Co-Founder de esta agencia digital. En su corta carrera profesional ha contribuido en distintos proyectos importantes.',
