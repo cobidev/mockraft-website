@@ -1,15 +1,15 @@
 export const clientProjects = [
   {
     id: 1,
-    title: 'Mockraft Sketchbooks',
-    type: 'Tienda Shopify eCommerce',
+    title: 'MSR Sketchbooks',
+    type: 'Tienda Shopify E-commerce',
     heroImg: 'images/projects/1-hr.JPG',
     mockImg: 'images/projects/1-mk.png',
-    url: 'https://mockraft.myshopify.com/',
+    url: 'https://msrfins.com/',
     about:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque minima odit dolorum ab et odio, error aperiam sequi consequuntur ducimus accusantium quod voluptatem corporis ullam facilis, sint dolore eius repudiandae',
+      'Pequeña empresa familiar de libretas artesanales hechas en Venezuela.',
     solution:
-      'Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.'
+      'Motivado a la situación país, el cliente buscaba ampliar su mercado a través de Internet, el reto principal era diseñar una pagina de comercio electrónico que lograra conectar el producto con su target a nivel internacional. El resultado fue una tienda online,  desarrollada con la plataforma E-commerce Shopify, ofreciéndole al cliente la posibilidad de ampliar su mercado, gestionar sus inventarios y recibir pagos desde distintas pasarelas de pago.'
   },
   {
     id: 2,
@@ -19,9 +19,9 @@ export const clientProjects = [
     mockImg: 'images/projects/2-mk.png',
     url: 'https://mura-listening-profile.herokuapp.com/',
     about:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque minima odit dolorum ab et odio, error aperiam sequi consequuntur ducimus accusantium quod voluptatem corporis ullam facilis, sint dolore eius repudiandae',
+      'Empresa consultora en recursos humanos, de amplia trayectoria y referencia en América Latina especializados en el diseño de estrategias para procesos de cambio y aprendizaje en las organizaciones.',
     solution:
-      'Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.'
+      'El cliente deseaba una adaptación digital de uno de sus productos de medición, el reto principal era transferir el diseño de un formato impreso a uno digital, sintetizando tanto el diseño como la funcionalidad. Nuestra solución se presenta en forma de una aplicación web a través de una interfaz sencilla, responsiva y de fácil acceso desde cualquier dispositivo.'
   },
   {
     id: 3,
@@ -31,21 +31,8 @@ export const clientProjects = [
     mockImg: 'images/projects/3-mk.png',
     url: 'https://cobimr.xyz/',
     about:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque minima odit dolorum ab et odio, error aperiam sequi consequuntur ducimus accusantium quod voluptatem corporis ullam facilis, sint dolore eius repudiandae',
+      'Jacobo es el Lead Developer y Co-Founder de esta agencia digital. En su corta carrera profesional ha contribuido en distintos proyectos importantes.',
     solution:
-      'Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.'
+      'Su portafolio digital o sitio web personal es el claro ejemplo de como trabajamos en la agencia en cuanto a código, diseño y UI/UX. Asi como la funcionalidad de ser totalmente responsivo en dispositivos como: smartphones, tables y laptop. Nos especializamos en la simplicidad y que el más mínimo detalle cuente para este tipo de proyectos.'
   }
 ];
-
-export const detailProject = {
-  id: 3,
-  title: 'Jacobo Martínez',
-  type: 'Sitio Web Personal',
-  heroImg: 'images/projects/3-hr.jpg',
-  mockImg: 'images/projects/3-hr.jpg',
-  url: 'https://cobimr.xyz/',
-  about:
-    'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque minima odit dolorum ab et odio, error aperiam sequi consequuntur ducimus accusantium quod voluptatem corporis ullam facilis, sint dolore eius repudiandae',
-  solution:
-    'Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.'
-};
