@@ -6,9 +6,7 @@ const InfoCTA = () => (
   <>
     <Fade bottom duration={500} delay={500} distance={'30px'}>
       <h2 className="font-big text-white mb-4">
-        Llámenos ahora{' '}
-        <span className="font-weight-bold">+58 426-637-4535</span> o envíe un
-        correo a{' '}
+        Envíenos un correo a{' '}
         <Link className="text-white font-weight-bold" to="/contacto">
           info@mockraft.com
         </Link>

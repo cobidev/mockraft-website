@@ -26,12 +26,6 @@ const Footer = () => (
                   info@mockrat.com
                 </Link>
               </ListGroup.Item>
-              <ListGroup.Item>
-                <img src="/images/arrow-r-footer.svg" alt="link-arrow" />
-                <a className="text-grey" href="#!">
-                  +58 426-637-4535
-                </a>
-              </ListGroup.Item>
             </ListGroup>
           </div>
         </Col>
