@@ -4,19 +4,19 @@ import Fade from 'react-reveal/Fade';
 const TerminosText = () => {
   return (
     <>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">
+            <h2 className='section-title text-center text-main'>
               INFORMACIÓN RELEVANTE
             </h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               Es requisito necesario para la adquisición de los productos que se
               ofrecen en este sitio, que lea y acepte los siguientes Términos y
@@ -55,17 +55,17 @@ const TerminosText = () => {
           </div>
         </Fade>
       </article>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">LICENCIA</h2>
+            <h2 className='section-title text-center text-main'>LICENCIA</h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               Mockraft Agency  a través de su sitio web concede una licencia
               para que los usuarios utilicen  los productos que son vendidos en
@@ -75,19 +75,19 @@ const TerminosText = () => {
           </div>
         </Fade>
       </article>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">
+            <h2 className='section-title text-center text-main'>
               USO NO AUTORIZADO
             </h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               En caso de que aplique (para venta de software, templetes, u otro
               producto de diseño y programación) usted no puede colocar uno de
@@ -98,17 +98,17 @@ const TerminosText = () => {
           </div>
         </Fade>
       </article>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">PROPIEDAD</h2>
+            <h2 className='section-title text-center text-main'>PROPIEDAD</h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               Usted no puede declarar propiedad intelectual o exclusiva a
               ninguno de nuestros productos, modificado o sin modificar. Todos
@@ -123,19 +123,19 @@ const TerminosText = () => {
           </div>
         </Fade>
       </article>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">
+            <h2 className='section-title text-center text-main'>
               POLÍTICA DE REEMBOLSO Y GARANTÍA
             </h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               En el caso de productos que sean  mercancías irrevocables
               no-tangibles, no realizamos reembolsos después de que se envíe el
@@ -173,19 +173,19 @@ const TerminosText = () => {
           </div>
         </Fade>
       </article>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">
+            <h2 className='section-title text-center text-main'>
               COMPROBACIÓN ANTIFRAUDE
             </h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               La compra del cliente puede ser aplazada para la comprobación
               antifraude. También puede ser suspendida por más tiempo para una
@@ -195,17 +195,17 @@ const TerminosText = () => {
           </div>
         </Fade>
       </article>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">PRIVACIDAD</h2>
+            <h2 className='section-title text-center text-main'>PRIVACIDAD</h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               Este sitio web www.mockraft.com garantiza que la información
               personal que usted envía cuenta con la seguridad necesaria. Los

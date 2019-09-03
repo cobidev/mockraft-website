@@ -4,19 +4,19 @@ import Fade from 'react-reveal/Fade';
 const PrivacidadText = () => {
   return (
     <>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">
+            <h2 className='section-title text-center text-main'>
               Introducción
             </h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               El presente Política de Privacidad establece los términos en que
               Mockraft Agency usa y protege la información que es proporcionada
@@ -33,19 +33,19 @@ const PrivacidadText = () => {
           </div>
         </Fade>
       </article>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">
+            <h2 className='section-title text-center text-main'>
               Información que es recogida
             </h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               Nuestro sitio web podrá recoger información personal por ejemplo:
               Nombre,  información de contacto como  su dirección de correo
@@ -56,19 +56,19 @@ const PrivacidadText = () => {
           </div>
         </Fade>
       </article>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">
+            <h2 className='section-title text-center text-main'>
               Uso de la información recogida
             </h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               Nuestro sitio web emplea la información con el fin de proporcionar
               el mejor servicio posible, particularmente para mantener un
@@ -90,17 +90,17 @@ const PrivacidadText = () => {
           </div>
         </Fade>
       </article>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">Cookies</h2>
+            <h2 className='section-title text-center text-main'>Cookies</h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               Una cookie se refiere a un fichero que es enviado con la finalidad
               de solicitar permiso para almacenarse en su ordenador, al aceptar
@@ -130,19 +130,19 @@ const PrivacidadText = () => {
           </div>
         </Fade>
       </article>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">
+            <h2 className='section-title text-center text-main'>
               Enlaces a Terceros
             </h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               Este sitio web pudiera contener en laces a otros sitios que
               pudieran ser de su interés. Una vez que usted de clic en estos
@@ -156,19 +156,19 @@ const PrivacidadText = () => {
           </div>
         </Fade>
       </article>
-      <article className="mb-5">
+      <article className='mb-5'>
         <div>
           <Fade bottom duration={500} delay={500} distance={'30px'}>
-            <h2 className="section-title text-center text-main">
+            <h2 className='section-title text-center text-main'>
               Control de su información personal
             </h2>
           </Fade>
           <Fade bottom duration={500} delay={800} distance={'15px'}>
-            <hr className="theme-divider mt-4 mb-5" />
+            <hr className='theme-divider mt-4 mb-5' />
           </Fade>
         </div>
         <Fade left duration={500} delay={800} distance={'30px'}>
-          <div className="text-grey font-small">
+          <div className='text-grey font-small'>
             <p>
               En cualquier momento usted puede restringir la recopilación o el
               uso de la información personal que es proporcionada a nuestro
